@@ -10,7 +10,7 @@ is a purely terminal based solution.
 ## Installation
 ```julia
 import Pkg
-Pkg.add("https://github.com/GHTaarn/TerminalFilePicker.jl")
+Pkg.add(url="https://github.com/GHTaarn/TerminalFilePicker.jl")
 ```
 
 ## Use
