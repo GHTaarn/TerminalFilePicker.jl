@@ -8,7 +8,7 @@ export pick_file
     pick_file(dir="."; pattern=r"")
 
 Show the files in `dir` that match `pattern` and return the one chosen by the
-user. Returns `nothing` if there are no files to choose from.
+user. Immediately returns `nothing` if there are no files to choose from.
 """
 function pick_file(dir="."; pattern=r"")
     files=filter(contains(pattern), readdir(dir))
