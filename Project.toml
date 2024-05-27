@@ -1,7 +1,7 @@
 name = "TerminalFilePicker"
 uuid = "b1b94250-c2ee-4735-b5f7-9deb07899968"
 authors = ["GHTaarn <62629455+GHTaarn@users.noreply.github.com>"]
-version = "0.2.0"
+version = "0.3.0-DEV"
 
 [deps]
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
