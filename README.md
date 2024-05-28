@@ -23,5 +23,5 @@ using TerminalFilePicker
 pick_file("."; pattern=r"[A-Za-z]*")
 ```
 
-The return value is the name of whichever file the user selected.
+The return value is the path of whichever file the user selected.
 
